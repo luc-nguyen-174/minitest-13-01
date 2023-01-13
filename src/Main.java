@@ -17,10 +17,10 @@ public class Main {
         books[8] = new ProgrammingBook("9", "Giáo Trình Kỹ Thuật Lập Trình C Căn Bản Và Nâng Cao", 18.99, "Phạm Văn Ất", "C", "C");
         books[9] = new ProgrammingBook("10", "Lập trình hướng đối tượng JAVA core dành cho người mới bắt đầu học lập trình", 249.99, "Neo. Thành", "Java", "Javacore");
 
-        System.out.println("Nhập vào language cần tìm");
+        System.out.println("Nhập vào language cần tìm (ex:Java)");
         String language = scanner.nextLine();
 
-        System.out.println("Nhập vào category cần tìm");
+        System.out.println("Nhập vào category cần tìm (ex: Viễn tưởng");
         String category = scanner.nextLine();
 
         System.out.println("Nhập vào giá");
